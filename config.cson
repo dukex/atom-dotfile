@@ -1,0 +1,43 @@
+"*":
+  "exception-reporting":
+    userId: "9271f751-9317-c1ec-03df-d92c59f8b44f"
+  welcome:
+    showOnStartup: false
+  core:
+    autoHideMenuBar: true
+    ignoredNames: [
+      ".git"
+      "_core"
+      "tmp"
+      "dist"
+      "node_modules"
+      "bower_components"
+    ]
+    themes: [
+      "one-dark-ui"
+      "chester-atom-syntax"
+    ]
+  editor:
+    invisibles: {}
+    showInvisibles: true
+    softWrap: true
+    fontSize: 20
+    fontFamily: "Fira Code, monospace"
+  "go-plus":
+    goPath: "~"
+    goInstallation: "/usr/local/go"
+    formatTool: "goreturns"
+  "autocomplete-plus":
+    confirmCompletion: "tab"
+  "go-imports": {}
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+    useSmartcaseForSearch: true
+  "go-oracle": {}
+  tabs:
+    showIcons: true
+    usePreviewTabs: true
+  "one-dark-ui": {}
+"source.gfm":
+  editor:
+    softWrap: true
