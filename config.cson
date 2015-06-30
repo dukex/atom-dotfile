@@ -17,29 +17,30 @@
       "one-dark-ui"
       "chester-atom-syntax"
     ]
+    disabledPackages: [
+      "metrics"
+    ]
   editor:
     invisibles: {}
     softWrap: true
     fontSize: 20
     fontFamily: "Fira Code, monospace"
+    softWrapHangingIndent: 20
   "go-plus":
     goPath: "~"
     goInstallation: "/usr/local/go"
     formatTool: "goreturns"
   "autocomplete-plus":
     confirmCompletion: "enter"
-  "go-imports": {}
+    backspaceTriggersAutocomplete: true
   "vim-mode":
     useClipboardAsDefaultRegister: true
     useSmartcaseForSearch: true
-  "go-oracle": {}
   tabs:
     showIcons: true
     usePreviewTabs: true
-  "one-dark-ui": {}
   autosave:
     enabled: true
-  "fuzzy-finder": {}
   "git-diff":
     showIconsInEditorGutter: true
 "source.gfm":
