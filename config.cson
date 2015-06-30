@@ -37,6 +37,11 @@
     showIcons: true
     usePreviewTabs: true
   "one-dark-ui": {}
+  autosave:
+    enabled: true
+  "fuzzy-finder": {}
+  "git-diff":
+    showIconsInEditorGutter: true
 "source.gfm":
   editor:
     softWrap: true
