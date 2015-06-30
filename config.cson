@@ -19,7 +19,6 @@
     ]
   editor:
     invisibles: {}
-    showInvisibles: true
     softWrap: true
     fontSize: 20
     fontFamily: "Fira Code, monospace"
@@ -28,7 +27,7 @@
     goInstallation: "/usr/local/go"
     formatTool: "goreturns"
   "autocomplete-plus":
-    confirmCompletion: "tab"
+    confirmCompletion: "enter"
   "go-imports": {}
   "vim-mode":
     useClipboardAsDefaultRegister: true
